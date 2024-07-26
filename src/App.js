@@ -219,6 +219,7 @@ function App() {
                                             value={newSubtaskText}
                                             onChange={(e) => setNewSubtaskText(e.target.value)}
                                             placeholder='enter a subtask'
+                                            className='subtask-input'
                                           />
                                           <button className='button-icon' onClick={() => handleAddSubtask(board.id, task.id)}>Save</button>
                                           <button className='button-icon' onClick={() => setCurrentTaskId(null)}>Cancel</button>
