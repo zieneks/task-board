@@ -1,0 +1,189 @@
+
+.app {
+
+  display: flex;
+  overflow-x: auto;
+  overflow-y: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+
+.board-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  height: 100vh;
+  justify-content:space-between;
+  
+  
+}
+.left-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+
+
+}
+
+.right-wrapper{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+ 
+.icon-wrapper{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.user{
+  margin-bottom: .8rem;
+}
+.icon-padding{
+  padding-right: 10px; 
+}
+
+.button-icon{
+background: none;
+border: none;
+padding: 0;
+cursor: pointer;
+color: inherit;
+margin-left: .5rem;
+
+}
+
+.second-block {
+  padding: 10px;
+  margin-left: 1rem;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  width: 20%;
+  max-width: 30vw;
+  min-width: 10vw;
+  /* max-width: 20vw;  */
+  display: flex;
+  justify-content:space-between;
+  -webkit-box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.58); 
+  box-shadow: 0px 3px 9px 2px rgba(0,0,0,0.58);
+}
+
+.board {
+  margin: 8px;
+  padding: 8px;
+  width: 50vw;
+  background-color:#ECF1FD;
+  border-radius: 4px;
+  
+}
+
+.task {
+background-color: #ffff;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+
+
+li{
+
+list-style-type: none;
+background-color: #ffff;
+margin-top: .5rem;
+padding: .5rem;
+border-radius: 10px;
+}
+
+.task-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.task-text {
+  flex-grow: 1;
+  
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 98%;
+  
+
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.button-modal-green{
+background: transparent;
+border: 1px solid green;
+padding: .5rem;
+cursor: pointer;
+color: inherit;
+border-radius: 10px;
+transition: 1s ease;
+
+&:hover{
+  background-color: green;
+  
+}
+
+}
+
+.button-modal-red{
+background: transparent;
+border: 1px solid red;
+padding: .5rem;
+cursor: pointer;
+color: inherit;
+border-radius: 10px;
+transition: 1s ease;
+
+&:hover{
+  background-color: red;
+}
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 8px;
+}
+
+
+@media (max-width: 835px) {
+  .second-block {
+      flex-direction: column;
+      align-items: center;
+      width: 100%; 
+  }
+
+  
+
+  p {
+      width: 100%; 
+  }
+}
