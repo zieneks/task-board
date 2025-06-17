@@ -29,25 +29,19 @@ npm or Yarn
 ⚙️ Installation & Running Locally
 Clone the repository:
 
-bash
-Kopiuj
-Edytuj
 git clone https://github.com/zieneks/task-board.git
 cd task-board
+
 Install dependencies:
 
-bash
-Kopiuj
-Edytuj
 npm install
 # or
 yarn install
+
 Start the development server:
 
-bash
-Kopiuj
-Edytuj
 npm start
 # or
 yarn start
+
 Open your browser and go to http://localhost:3000
